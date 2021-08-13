@@ -1,16 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="container-lg">
+      <h1 class="text-center py-5">Gamesinfo</h1>
+      <div class="game row">
+        <div class="col-4">
+          <nav class="nav nav-pills flex-column py-4 border rounded px-2" id="myTab">
+            <a class="nav-link active" href="#metroexodus" data-toggle="tab">Metro Exoduc</a>
+            <a class="nav-link" href="#mk11" data-toggle="tab">Mortal Kombat</a>
+            <a class="nav-link" href="#pubg" data-toggle="tab">PUBG</a>
+            <a class="nav-link" href="#csgo" data-toggle="tab">CS:GO</a>
+          </nav>
+        </div>
+
+        <div class="col-8">
+          <div class="tab-content" id="content">
+            <div class="tab-pane fade show" id="metroexodus">
+              <div class="d-flex border p-3">
+                <img class="img-fluid" src="img/metro-exodus.png" alt="Photo game metro exodus" width="220" height="240">
+              <div class="game__info-content ml-4">
+                <h2 class="h3">Metro Exodus</h2>
+                <dl>
+                  <div class="d-flex">
+                    <dt class="mr-2">Reales year:</dt>
+                    <dd>2018</dd>
+                  </div>
+                  <div class="d-flex">
+                    <dt class="mr-2">Rating:</dt>
+                    <dd>7.5</dd>
+                  </div>
+                  <div class="d-flex">
+                    <dt class="mr-2">Income:</dt>
+                    <dd>$123M</dd>
+                  </div>
+                </dl>
+              </div>
+              </div>
+            </div>
+
+            <div class="tab-pane" id="mk11">
+              <div class="d-flex border p-3">
+                <img class="img-fluid" src="img/mortal-kombat.png" alt="Photo game metro exodus" width="220" height="240">
+              <div class="game__info-content ml-4">
+                <h2 class="h3">Mortal Kombat</h2>
+                <dl>
+                  <div class="d-flex">
+                    <dt class="mr-2">Reales year:</dt>
+                    <dd>2018</dd>
+                  </div>
+                  <div class="d-flex">
+                    <dt class="mr-2">Rating:</dt>
+                    <dd>7.5</dd>
+                  </div>
+                  <div class="d-flex">
+                    <dt class="mr-2">Income:</dt>
+                    <dd>$123M</dd>
+                  </div>
+                </dl>
+              </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="pubg">
+              <div class="d-flex border p-3">
+                <img class="img-fluid" src="img/pubg-hack.jpg" alt="Photo game metro exodus" width="220" height="240">
+              <div class="game__info-content ml-4">
+                <h2 class="h3">PUBG</h2>
+                <dl>
+                  <div class="d-flex">
+                    <dt class="mr-2">Reales year:</dt>
+                    <dd>2018</dd>
+                  </div>
+                  <div class="d-flex">
+                    <dt class="mr-2">Rating:</dt>
+                    <dd>7.5</dd>
+                  </div>
+                  <div class="d-flex">
+                    <dt class="mr-2">Income:</dt>
+                    <dd>$123M</dd>
+                  </div>
+                </dl>
+              </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="csgo">
+              <div class="d-flex border p-3">
+                <img class="img-fluid" src="img/cs-go.jpg" alt="Photo game metro exodus" width="220" height="240">
+              <div class="game__info-content ml-4">
+                <h2 class="h3">CS:GO</h2>
+                <dl>
+                  <div class="d-flex">
+                    <dt class="mr-2">Reales year:</dt>
+                    <dd>2018</dd>
+                  </div>
+                  <div class="d-flex">
+                    <dt class="mr-2">Rating:</dt>
+                    <dd>7.5</dd>
+                  </div>
+                  <div class="d-flex">
+                    <dt class="mr-2">Income:</dt>
+                    <dd>$123M</dd>
+                  </div>
+                </dl>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <ul class="nav nav-tabs pt-4">
+            <li class="nav-item">
+              <a class="nav-link active" href="#info" data-toggle="tab">General info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#videos" data-toggle="tab">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#interesting-fact" data-toggle="tab">Interesting fact</a>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane fane show" id="info">
+              <p class="pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores debitis cumque rerum non veritatis, dolores tempora veniam itaque, odio repellat autem id modi optio inventore totam, accusantium aut dolorem expedita.</p>
+            </div>
+            <div class="tab-pane fane show" id="videos">
+              <p class="pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores debitis cumque rerum non veritatis, dolores tempora veniam itaque, odio repellat autem id modi optio inventore totam, accusantium aut dolorem expedita.</p>
+            </div>
+            <div class="tab-pane fane show" id="interesting-fact">
+              <p class="pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores debitis cumque rerum non veritatis, dolores tempora veniam itaque, odio repellat autem id modi optio inventore totam, accusantium aut dolorem expedita.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
 
 
-  <script src="js/main.js"></script>
-</body>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
 </html>
